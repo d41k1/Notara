@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Notara theme */
+    --md-sys-color-primary: rgb(9 103 127);
+    --md-sys-color-surface-tint: rgb(9 103 127);
+    --md-sys-color-on-primary: rgb(255 255 255);
+    --md-sys-color-primary-container: rgb(184 234 255);
+    --md-sys-color-on-primary-container: rgb(0 31 40);
+    --md-sys-color-secondary: rgb(76 98 107);
+    --md-sys-color-on-secondary: rgb(255 255 255);
+    --md-sys-color-secondary-container: rgb(207 230 241);
+    --md-sys-color-on-secondary-container: rgb(7 30 38);
+    --md-sys-color-tertiary: rgb(91 91 126);
+    --md-sys-color-on-tertiary: rgb(255 255 255);
+    --md-sys-color-tertiary-container: rgb(225 224 255);
+    --md-sys-color-on-tertiary-container: rgb(23 24 55);
+    --md-sys-color-error: rgb(186 26 26);
+    --md-sys-color-on-error: rgb(255 255 255);
+    --md-sys-color-error-container: rgb(255 218 214);
+    --md-sys-color-on-error-container: rgb(65 0 2);
+    --md-sys-color-background: rgb(245 250 253);
+    --md-sys-color-on-background: rgb(23 28 31);
+    --md-sys-color-surface: rgb(245 250 253);
+    --md-sys-color-on-surface: rgb(23 28 31);
+    --md-sys-color-surface-variant: rgb(220 228 232);
+    --md-sys-color-on-surface-variant: rgb(64 72 76);
+    --md-sys-color-outline: rgb(112 120 124);
+    --md-sys-color-outline-variant: rgb(191 200 204);
+    --md-sys-color-shadow: rgb(0 0 0);
+    --md-sys-color-scrim: rgb(0 0 0);
+    --md-sys-color-inverse-surfGace: rgb(44 49 52);
+    --md-sys-color-inverse-on-surface: rgb(237 241 244);
+    --md-sys-color-inverse-primary: rgb(136 208 236);
+    --md-sys-color-primary-fixed: rgb(184 234 255);
+    --md-sys-color-on-primary-fixed: rgb(0 31 40);
+    --md-sys-color-primary-fixed-dim: rgb(136 208 236);
+    --md-sys-color-on-primary-fixed-variant: rgb(0 77 97);
+    --md-sys-color-secondary-fixed: rgb(207 230 241);
+    --md-sys-color-on-secondary-fixed: rgb(7 30 38);
+    --md-sys-color-secondary-fixed-dim: rgb(179 202 213);
+    --md-sys-color-on-secondary-fixed-variant: rgb(53 74 83);
+    --md-sys-color-tertiary-fixed: rgb(225 224 255);
+    --md-sys-color-on-tertiary-fixed: rgb(23 24 55);
+    --md-sys-color-tertiary-fixed-dim: rgb(195 195 235);
+    --md-sys-color-on-tertiary-fixed-variant: rgb(67 68 101);
+    --md-sys-color-surface-dim: rgb(214 219 222);
+    --md-sys-color-surface-bright: rgb(245 250 253);
+    --md-sys-color-surface-container-lowest: rgb(255 255 255);
+    --md-sys-color-surface-container-low: rgb(240 244 247);
+    --md-sys-color-surface-container: rgb(234 238 242);
+    --md-sys-color-surface-container-high: rgb(228 233 236);
+    --md-sys-color-surface-container-highest: rgb(222 227 230);
+
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  body {
+    @apply font-body bg-background;
+  }
+  .material-symbols-rounded.color {
+    color: var(--md-sys-color-surface-bright);
+  }
+  .material-symbols-rounded.fill {
+    font-variation-settings: "FILL" 1;
+  }
+}
+
+@layer utilities {
+  .hidden-scrollbar {
+    -ms-overflow-style: none; /* IE, Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .hidden-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+}
