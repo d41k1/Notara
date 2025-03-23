@@ -83,13 +83,12 @@ export default async function MdAvatar() {
                   hoverBgColor="hover:bg-gray-300"
                 />
               </DialogClose>
-
               <Button
                 label="Logout"
                 textColor="text-white"
-                bgColor="bg-red-500"
+                bgColor="bg-gray-800"
                 borderColor="border-none"
-                hoverBgColor="hover:bg-red-700"
+                hoverBgColor="hover:bg-gray-700"
                 onClick={Logout}
               />
             </DialogFooter>
